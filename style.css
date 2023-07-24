@@ -247,3 +247,33 @@ header{
     .messagebox p{
         padding-left: 2vw;
     }
+   @media only screen and (max-width : 1000px){
+        .main2,.group-chat{
+            display: none;
+            position: absolute;
+        }
+        .main1,.second,.search,.sa,.chat,.bord{
+            width: 100vw;
+        }
+        .img-box{
+            margin-right: 7vw;
+        }
+        strong{
+            display: inline-block;
+            width: 70vw;
+        }
+        .search{
+            background-color: #202C33;
+            display: flex;
+            align-items: center;
+            color: white;
+            margin-left:2vw ;
+            margin-top: 2vh;
+            height: 7vh;
+            width: 80vw;
+            border-radius: 8px;
+        }
+        
+
+        
+    }
