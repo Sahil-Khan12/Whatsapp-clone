@@ -1,0 +1,249 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+.material-symbols-outlined {
+    color: white;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+  
+}
+body{
+    background-color: #111B21;
+}
+header{
+    background-color: #202C33;
+    display: flex;
+    align-items: center;
+}
+.main1{
+    display: flex;
+    width: 26vw;
+    border-right: 3px solid #374045;
+    height: 7vh;
+    align-items: center;
+}
+.me{
+    width: 0.3vw;
+    background: #374045;
+    height: 5vh;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 8px;
+}
+.first{
+    padding-right: 8vw;
+    padding-left: 1vw;
+
+}
+.second span{
+    padding-left: 1vw;
+}
+.main2{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.first1{
+    padding-right: 3vw;
+    padding-left: 1vw;
+}
+.size{
+    font-size: large;
+}
+.second1{
+    padding-left: 35vw;
+}
+.second1 span:first-child{
+    padding-right:2vw ;
+}
+.container{
+    background-color: #111B21;
+    display: grid;
+    grid-template-columns: 26vw 73vw;
+    height: 89vh;
+    gap: 2px;
+}
+.chat{
+    background-color: #111B21;
+    border-right: 3px solid #374045;
+    width: 26vw;
+}
+.search{
+    background-color: #202C33;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left:2vw ;
+    margin-top: 2vh;
+    height: 7vh;
+    width: 20vw;
+    border-radius: 8px;
+}
+.mn{
+    padding-right: 2vw;
+    padding-left:1vw ;
+}
+.abc{
+    opacity: .7;
+    font-size: small;
+}
+.xy{
+    margin-top: 2vh;
+    padding-left:1vw ;
+    
+}
+.sa{
+    padding-top: 1vw;
+    padding-left:1vw ; 
+    color: white;
+    padding-bottom: 1vh;
+    display: flex;
+    align-items: center;
+}
+.ka{
+    padding-right: 2vw;
+}
+.obc{
+    padding-left: 1vw;
+}
+.bord{
+    border-bottom: 1px solid #374045;
+    width: 20vw;
+    padding-bottom: 2vh;
+}
+.group-chat{
+    background: url(OIP.jpg) no-repeat  fixed;
+    background-size: cover;
+    margin-right: 1vw;
+}
+.message-box {
+    position:relative;
+    display: flex;
+    width:71vw;
+    margin: 5px 0;
+  }
+  
+  .message-box p {
+    position:relative;
+    right: 0;
+    text-align: right;
+    max-width: 65%;
+    padding: 2px;
+    padding-right: 9px;
+    background: #005C4B;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-right: 5vw;
+    color: white;
+  }
+  
+  .message-box.my-message p::before {
+      content : '';
+      position: absolute;
+      top: 0;
+      right: -12px;
+      width: 20px;
+      height: 20px;
+      background: linear-gradient(135deg, #005C4B 0%, #005C4B 50%, transparent 50%, transparent);
+    }
+    
+    .message-box p span {
+        display: block;
+        margin-top: 5px;
+        font-size: 0.8em;
+        opacity: 0.5;
+    }
+    
+    .my-message {
+        justify-content: flex-end;
+    }
+    .my-message p span{
+        display: inline-block;
+    }
+    
+    .friend-message p {
+        background: #202C33;
+        color: white;
+    }
+    
+    .friend-message {
+        justify-content: flex-start;
+        padding-left: 1vw;
+        
+    }
+    
+    .chat-container .my-message i {
+        color: yellow;
+    }
+    
+    .message-box.friend-message::before {
+        content : '';
+        position: absolute;
+        top: 14.5px;
+        left: 70px;
+        width: 20px;
+        height: 20px;
+        background: linear-gradient(225deg, #202C33 0%, #202C33 50%, transparent 50%, transparent);
+    }
+    .name{
+      text-align: left;
+      color: rgb(7, 246, 7);
+      opacity: 1;
+      font-weight: bold;
+      font-size: 60px;
+    }
+    .namee{
+        color: rgb(6, 205, 255);
+    }
+    .end{
+        font-size: 12px;
+        opacity: .8;
+    }
+    strong{
+        display: inline-block;
+        width: 18vw;
+    }
+    .circle{
+        background-color: rgb(7, 246, 7);
+        color: black;
+        border-radius: 100%;
+        padding: 1px;
+        font-size: 12px;
+        opacity: .8;
+        margin-left: 11vw;
+    }
+    .img-box {
+        position: relative;
+        width: 41px;
+        height: 37px;
+        overflow: hidden;
+        border-radius: 50%;
+        margin-right: 1.4vw;
+    }
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .mess{
+        display: flex;
+        background-color: #202C33;
+        align-items: center;
+    }
+    .messagebox{
+        display: flex;
+        align-items: center;
+        background-color: #2A3942;
+        margin: 1.2vh 0vw;
+        height: 4vh;
+        width: 60vw;
+        margin-right: 2vw;
+        border-radius: 5px;
+        color: white;
+    }
+    .messagebox p{
+        padding-left: 2vw;
+    }
